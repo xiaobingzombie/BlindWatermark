@@ -20,7 +20,7 @@ if __name__=='__main__':
 
     if (args.embed and args.extract) or ((not args.embed) and (not args.extract)):
         #args.embed 和 args.extract 有且只有一个为True
-        print("('-em','--embed')和('-ex','--extract') 必须有且只有一个")
+        print("('-em','--embed')和('-ex','--extract') 必须有且只有一个!!!")
         exit()
     elif args.embed:
         #嵌入水印
